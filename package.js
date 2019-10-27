@@ -1,13 +1,13 @@
 /* global Package */
 Package.describe({
 	summary: 'A way to inject data to the client with initial HTML',
-	version: '2.3.0',
+	version: '2.3.1',
 	git: 'https://github.com/abecks/meteor-inject-data',
 	name: 'staringatlights:inject-data',
 })
 
 Package.onUse(function(api) {
-	api.versionsFrom('METEOR@1.6.1')
+	api.versionsFrom('METEOR@1.8.1')
 	api.use('webapp', 'server')
 	api.use(['ejson', 'ecmascript'], ['server', 'client'])
 	api.mainModule('lib/namespace.js', ['server', 'client'])
