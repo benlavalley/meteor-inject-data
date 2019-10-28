@@ -1,8 +1,7 @@
 {
 	"name": "inject-data",
 	"version": "2.2.0",
-	"description":
-		"A way to inject data to the client with initial HTML. A continuation of `meteorhacks:inject-data`.",
+	"description": "A way to inject data to the client with initial HTML. A continuation of `meteorhacks:inject-data`.",
 	"main": "package.js",
 	"directories": {
 		"lib": "lib",
