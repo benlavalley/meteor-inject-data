@@ -1,7 +1,7 @@
 /* global Package */
 Package.describe({
 	summary: 'A way to inject data to the client with initial HTML',
-	version: '2.3.1',
+	version: '2.3.2',
 	git: 'https://github.com/abecks/meteor-inject-data',
 	name: 'staringatlights:inject-data',
 });
@@ -23,7 +23,7 @@ Package.onTest(function (api) {
 	api.use(['underscore', 'tinytest'], ['client', 'server']);
 	api.use('http', 'server');
 	api.use('random', 'server');
-	api.use('meteorhacks:picker@1.0.1', 'server');
+	api.use('meteorhacks:picker@1.0.5', 'server');
 	api.addFiles(['tests/init.js'], 'server');
 	api.addFiles(['tests/utils.js'], ['client', 'server']);
 	api.addFiles(['tests/client.js'], 'client');
