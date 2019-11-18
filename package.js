@@ -9,7 +9,7 @@ Package.describe({
 Package.onUse(function (api) {
 	api.versionsFrom('METEOR@1.8.1');
 	api.use('webapp', 'server');
-	api.use(['underscore', 'ejson', 'ecmascript'], ['server', 'client']);
+	api.use(['ejson', 'ecmascript'], ['server', 'client']);
 	api.mainModule('lib/namespace.js', ['server', 'client']);
 	api.addFiles('lib/utils.js', ['server', 'client']);
 	api.addFiles('lib/server.js', 'server');
