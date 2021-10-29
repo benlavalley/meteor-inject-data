@@ -7,7 +7,7 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-	api.versionsFrom('METEOR@1.8.1');
+	api.versionsFrom('METEOR@2.5');
 	api.use('webapp', 'server');
 	api.use(['ejson', 'ecmascript'], ['server', 'client']);
 	api.mainModule('lib/namespace.js', ['server', 'client']);
