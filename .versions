@@ -22,7 +22,7 @@ http@1.4.0
 id-map@1.1.0
 local-test:staringatlights:inject-data@2.3.2
 logging@1.1.19
-meteor@1.8.2
+meteor@2.5
 meteorhacks:picker@1.0.3
 minimongo@1.4.3
 modules@0.11.5
